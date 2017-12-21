@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html class=''>
+<head><meta charset='UTF-8'>
+<meta name="robots" content="noindex">
+<style class="cp-pen-styles"></style></head><body>
+<html __fvdsurfcanyoninserted="1" class=" clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone"><head>
+        <meta charset="UTF-8">
+        <title>祝小呆呆生日快乐</title>
+        <style>
+            /* If you can't see it just hit space in here*/
+            @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800);
+body {
+  height: 100vh;
+  background-image: radial-gradient(#374566, #010203);
+  color: #ccc;
+  font-family: Raleway;
+  letter-spacing: 0.15em;
+  font-size: 20px;
+}
+canvas {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+#wishes {
+  width: 20em;
+  border: 1px dotted;
+  text-align: center;
+  float: right;
+  background: hsla(210, 50%, 15%, 0.75);
+}
+#wishes>p>span {
+  display: inline-block;
+}
+#wishes>p>span.jump {
+  animation: jump 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s 2 alternate;
+}
+@keyframes jump {
+  to {
+    transform: translateY(-0.7em);
+  }
+}
+
+#pleaseClick {
+  position: absolute;
+  background: hsla(210, 50%, 15%, 0.75);
+  font-size: 80%;
+  width: 10em;
+  text-align: center;
+  left: calc(80vw - 5em);
+  top: calc(35vh - 12.5em);
+  animation: jump 1s ease-in-out infinite alternate;
+}
+#pleaseClick span {
+  font-size: 200%;
+}
+
+.control {
+  text-align: center;
+}
+
+input[type="range"],
+input[type="range"]::-webkit-slider-runnable-track,
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18em;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: #777;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #374566;
+  border-radius: 50%;
+  margin-top: -9px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: #777;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #333;
+  border-radius: 50%;
+}
+
+input[type="range"]::-ms-thumb {
+  background-color: #777;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #333;
+  border-radius: 50%;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #777;
+  height: 3px;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  outline: none;
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: #777;
+  height: 3px;
+}
+
+input[type="range"]::-ms-track {
+  background-color: #777;
+  height: 3px;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background-color: HotPink;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background-color: black;
+}
+
+
+
+
+            body {
+                font-family: "microsoft yahei", "微软雅黑", STHeiti, Tahoma, Arial, Helvetica;
+            }
+			
+			body {
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
+  background-image: -webkit-radial-gradient(#374566, #010203);
+  background-image: -moz-radial-gradient(#374566, #010203);
+  background-image: -o-radial-gradient(#374566, #010203);
+  background-image: radial-gradient(#374566, #010203);
+}
+            span {
+                text-transform: uppercase;
+            }
+            .container {
+                width: 800px;
+                height: 420px;
+                padding: 10px;
+                margin: 0 auto;
+                position: relative;
+                float: left;  
+            }
+            .balloon {
+                width: 738px;
+                margin: 0 auto;
+                padding-top: 30px;
+                position: relative;
+            }
+            .balloon > div {
+                width: 104px;
+                height: 140px;
+                background: rgba(182, 15, 97, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                /* position: absolute; */
+                padding: 10px;
+                box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+                -webkit-transform-origin: bottom center;
+            }
+            .balloon > div:nth-child(1) {
+                background: rgba(182, 15, 97, 0.9);
+                left: 0;
+                box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
+                -webkit-animation: balloon1 6s ease-in-out infinite;
+                -moz-animation: balloon1 6s ease-in-out infinite;
+                -o-animation: balloon1 6s ease-in-out infinite;
+                animation: balloon1 6s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(1):before {
+                color: rgba(182, 15, 97, 0.9);
+            }
+            .balloon > div:nth-child(2) {
+                background: rgba(242, 112, 45, 0.9);
+                left: 120px;
+                box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+                -webkit-animation: balloon2 6s ease-in-out infinite;
+                -moz-animation: balloon2 6s ease-in-out infinite;
+                -o-animation: balloon2 6s ease-in-out infinite;
+                animation: balloon2 6s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(2):before {
+                color: rgba(242, 112, 45, 0.9);
+            }
+            .balloon > div:nth-child(3) {
+                background: rgba(45, 181, 167, 0.9);
+                left: 240px;
+                box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
+                -webkit-animation: balloon4 6s ease-in-out infinite;
+                -moz-animation: balloon4 6s ease-in-out infinite;
+                -o-animation: balloon4 6s ease-in-out infinite;
+                animation: balloon4 6s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(3):before {
+                color: rgba(45, 181, 167, 0.9);
+            }
+            .balloon > div:nth-child(4) {
+                background: rgba(190, 61, 244, 0.9);
+                left: 360px;
+                box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
+                -webkit-animation: balloon1 5s ease-in-out infinite;
+                -moz-animation: balloon1 5s ease-in-out infinite;
+                -o-animation: balloon1 5s ease-in-out infinite;
+                animation: balloon1 5s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(4):before {
+                color: rgba(190, 61, 244, 0.9);
+            }
+            .balloon > div:nth-child(5) {
+                background: rgba(180, 224, 67, 0.9);
+                left: 480px;
+                box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+                -webkit-animation: balloon3 5s ease-in-out infinite;
+                -moz-animation: balloon3 5s ease-in-out infinite;
+                -o-animation: balloon3 5s ease-in-out infinite;
+                animation: balloon3 5s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(5):before {
+                color: rgba(180, 224, 67, 0.9);
+            }
+            .balloon > div:nth-child(6) {
+                background: rgba(242, 194, 58, 0.9);
+                left: 600px;
+                box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
+                -webkit-animation: balloon2 3s ease-in-out infinite;
+                -moz-animation: balloon2 3s ease-in-out infinite;
+                -o-animation: balloon2 3s ease-in-out infinite;
+                animation: balloon2 3s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(6):before {
+                color: rgba(242, 194, 58, 0.9);
+            }
+            .balloon > div:before {
+                color: rgba(182, 15, 97, 0.9);
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            .balloon > div:nth-child(7) {
+                background: rgba(122, 58, 242, 0.9);
+                left: 600px;
+                box-shadow: inset 10px 10px 10px rgba(122, 58, 242, 0.9);
+                -webkit-animation: balloon2 3s ease-in-out infinite;
+                -moz-animation: balloon2 3s ease-in-out infinite;
+                -o-animation: balloon2 3s ease-in-out infinite;
+                animation: balloon2 3s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(7):before {
+                color: rgba(58, 242, 187, 0.9);
+            }
+            .balloon > div:before {
+                color: rgba(93, 15, 182, 0.9);
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            .balloon > div:nth-child(8) {
+                background: rgba(242, 58, 165, 0.9);
+                left: 600px;
+                box-shadow: inset 10px 10px 10px rgba(242, 58, 165, 0.9);
+                -webkit-animation: balloon2 3s ease-in-out infinite;
+                -moz-animation: balloon2 3s ease-in-out infinite;
+                -o-animation: balloon2 3s ease-in-out infinite;
+                animation: balloon2 3s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(8):before {
+                color: rgba(58, 242, 187, 0.9);
+            }
+            .balloon > div:before {
+                color: rgba(93, 15, 182, 0.9);
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            .balloon > div:nth-child(9) {
+                background: rgba(58, 242, 217, 0.9);
+                left: 600px;
+                box-shadow: inset 10px 10px 10px rgba(58, 242, 217, 0.9);
+                -webkit-animation: balloon2 3s ease-in-out infinite;
+                -moz-animation: balloon2 3s ease-in-out infinite;
+                -o-animation: balloon2 3s ease-in-out infinite;
+                animation: balloon2 3s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(9):before {
+                color: rgba(58, 242, 187, 0.9);
+            }
+            .balloon > div:before {
+                color: rgba(93, 15, 182, 0.9);
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            .balloon > div:nth-child(10) {
+                background: rgba(187, 242, 58, 0.9);
+                left: 600px;
+                box-shadow: inset 10px 10px 10px rgba(187, 242, 58, 0.9);
+                -webkit-animation: balloon2 3s ease-in-out infinite;
+                -moz-animation: balloon2 3s ease-in-out infinite;
+                -o-animation: balloon2 3s ease-in-out infinite;
+                animation: balloon2 3s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(10):before {
+                color: rgba(58, 242, 187, 0.9);
+            }
+            .balloon > div:before {
+                color: rgba(93, 15, 182, 0.9);
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            .balloon > div:nth-child(11) {
+                background: rgba(242, 58, 58, 0.9);
+                left: 600px;
+                box-shadow: inset 10px 10px 10px rgba(242, 58, 58, 0.9);
+                -webkit-animation: balloon2 3s ease-in-out infinite;
+                -moz-animation: balloon2 3s ease-in-out infinite;
+                -o-animation: balloon2 3s ease-in-out infinite;
+                animation: balloon2 3s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(11):before {
+                color: rgba(58, 242, 187, 0.9);
+            }
+            .balloon > div:before {
+                color: rgba(93, 15, 182, 0.9);
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            .balloon > div > span {
+                font-size: 4.8em;
+                color: white;
+                position: relative;
+                top: 30px;
+                left: 50%;
+                margin-left: -27px;
+            }
+            /*BALLOON 1 4*/
+            @-webkit-keyframes balloon1 {
+                0%, 100% {
+                    -webkit-transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    -webkit-transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            @-moz-keyframes balloon1 {
+                0%, 100% {
+                    -moz-transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    -moz-transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            @-o-keyframes balloon1 {
+                0%, 100% {
+                    -o-transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    -o-transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            @keyframes balloon1 {
+                0%, 100% {
+                    transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            /* BAllOON 2 5*/
+            @-webkit-keyframes balloon2 {
+                0%, 100% {
+                    -webkit-transform: translateY(0) rotate(6eg);
+                }
+                50% {
+                    -webkit-transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            @-moz-keyframes balloon2 {
+                0%, 100% {
+                    -moz-transform: translateY(0) rotate(6deg);
+                }
+                50% {
+                    -moz-transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            @-o-keyframes balloon2 {
+                0%, 100% {
+                    -o-transform: translateY(0) rotate(6deg);
+                }
+                50% {
+                    -o-transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            @keyframes balloon2 {
+                0%, 100% {
+                    transform: translateY(0) rotate(6deg);
+                }
+                50% {
+                    transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            /* BAllOON 0*/
+            @-webkit-keyframes balloon3 {
+                0%, 100% {
+                    -webkit-transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    -webkit-transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            @-moz-keyframes balloon3 {
+                0%, 100% {
+                    -moz-transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    -moz-transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            @-o-keyframes balloon3 {
+                0%, 100% {
+                    -o-transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    -o-transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            @keyframes balloon3 {
+                0%, 100% {
+                    transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            /* BAllOON 3*/
+            @-webkit-keyframes balloon4 {
+                0%, 100% {
+                    -webkit-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -webkit-transform: translate(-15px, 20px) rotate(10deg);
+                }
+            }
+            @-moz-keyframes balloon4 {
+                0%, 100% {
+                    -moz-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -moz-transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            @-o-keyframes balloon4 {
+                0%, 100% {
+                    -o-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -o-transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            @keyframes balloon4 {
+                0%, 100% {
+                    transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            /* BAllOON 4*/
+            @-webkit-keyframes balloon5 {
+                0%, 100% {
+                    -webkit-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -webkit-transform: translate(-15px, 20px) rotate(10deg);
+                }
+            }
+            @-moz-keyframes balloon5 {
+                0%, 100% {
+                    -moz-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -moz-transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            @-o-keyframes balloon5 {
+                0%, 100% {
+                    -o-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -o-transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            @keyframes balloon5 {
+                0%, 100% {
+                    transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            
+            h1 {
+                position: relative;
+                top: 200px;
+                text-align: center;
+                color: white;
+                font-size: 3.5em;
+            }
+        </style>
+        <script>
+            window.open = function() {};
+            window.print = function() {};
+            // Support hover state for mobile.
+            if (false) {
+                window.ontouchstart = function() {};
+            }
+        </script>
+      
+        <meta content="clickberry-extension-here">
+        <meta content="clickberry-extension-here">
+        <style type="text/css"></style>
+        <style type="text/css"></style>
+    <style type="text/css"></style><style type="text/css"></style>
+	<meta content="clickberry-extension-here"></head>
+    
+    <body>
+           
+       
+        <div class="container">
+            <div class="balloon">
+               <div><span>亲</span>
+                </div>
+                <div><span>爱</span>
+                </div>
+                <div><span>的</span>
+                </div>
+				<div><span>小</span>
+                </div>
+                <div><span>呆</span>
+                </div>
+                <div><span>呆</span>
+                </div>
+                <div><span>生</span>
+                </div>
+                <div><span>日</span>
+                </div>
+                <div><span>快</span>
+                </div>
+                <div><span>乐</span>
+                </div>
+                <div><span>!</span>
+                </div>
+            </div>
+          
+
+        </div>
+        <canvas id="canvas"></canvas>
+        <div id="pleaseClick">动动你的小手指<br><span>☟</span></div>
+        <div id="wishes">
+          <p id="p1"></p>
+          <p id="p2"></p>
+          <p id="p3"></p>
+          <p id="p4"></p>
+          <p class="control"><label for="inputSpeed"><!--Speed: --></label><br><input type="range" id="inputSpeed" min="0.1" max="2" step="0.1" value="0.5"></p>
+        </div>
+        
+       
+		
+
+
+        <script>
+            const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+const notes = [
+  {f:262,d:.5,t:"Hap",p:p1},
+  {f:262,d:.5,t:"py ",p:p1},
+  {f:294,d:1,t:"Birth",p:p1},
+  {f:262,d:1,t:"day ",p:p1},
+  {f:349,d:1,t:"To ",p:p1},
+  {f:330,d:2,t:"You",p:p1},
+  
+  {f:262,d:.5,t:"Hap",p:p2},
+  {f:262,d:.5,t:"py ",p:p2},
+  {f:294,d:1,t:"Birth",p:p2},
+  {f:262,d:1,t:"day ",p:p2},
+  {f:392,d:1,t:"To ",p:p2},
+  {f:349,d:2,t:"You",p:p2},
+  
+  {f:262,d:.5,t:"Hap",p:p3},
+  {f:262,d:.5,t:"py ",p:p3},
+  {f:523,d:1,t:"Birth",p:p3},
+  {f:440,d:1,t:"day ",p:p3},
+  {f:349,d:1,t:"Dear ",p:p3},
+  {f:330,d:1,t:"Dar",p:p3},
+  {f:294,d:3,t:"win",p:p3},
+  
+  {f:466,d:.5,t:"Hap",p:p4},
+  {f:466,d:.5,t:"py ",p:p4},
+  {f:440,d:1,t:"Birth",p:p4},
+  {f:349,d:1,t:"day ",p:p4},
+  {f:392,d:1,t:"To ",p:p4},
+  {f:349,d:2,t:"You",p:p4},
+];
+
+//DOM
+notes.map((n) => createSpan(n));
+
+function createSpan(n){
+  n.sp = document.createElement("span");
+  n.sp.innerHTML = n.t;
+  n.p.appendChild(n.sp);
+}
+
+// SOUND
+let speed = inputSpeed.value;
+let flag = false;
+let sounds = [];
+
+class Sound{
+  constructor(freq,dur,i){
+    this.stop = true;
+    this.frequency = freq;// la frecuencia
+    this.waveform = "triangle";// la forma de onda
+    this.dur = dur;// la duración en segundos
+    this.speed = this.dur*speed;
+    this.initialGain = .15;
+    this.index = i;
+    this.sp = notes[i].sp
+  }
+  
+  cease(){
+    this.stop = true;
+    this.sp.classList.remove("jump");
+    //this.sp.style.animationDuration = `${this.speed}s`;
+    if(this.index < sounds.length-1){sounds[this.index+1].play();}
+    if(this.index == sounds.length-1){flag = false;}
+  }
+  
+  play(){
+   // crea un nuevo oscillator
+   this.oscillator = audioCtx.createOscillator();
+   // crea un nuevo nodo de ganancia 
+   this.gain = audioCtx.createGain();
+   // establece el valor inicial del volumen del sonido 
+   this.gain.gain.value = this.initialGain;
+   // establece el tipo de oscillator  
+   this.oscillator.type = this.waveform;
+   // y el valor de la frecuencia 
+   this.oscillator.frequency.value = this.frequency;
+   // el volumen del sonido baja exponencialmente     
+   this.gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + this.speed);
+   // conecta el oscillator con el nodo de ganancia 
+   this.oscillator.connect(this.gain);
+   // y la ganancia con el dispositivo de destino
+   this.gain.connect(audioCtx.destination);
+   // inicia el oscillator 
+   this.oscillator.start(audioCtx.currentTime);
+   this.sp.setAttribute("class", "jump");
+   this.stop = false;
+   // para el oscillator después de un tiempo (this.speed) 
+   this.oscillator.stop(audioCtx.currentTime + this.speed); 
+   this.oscillator.onended = ()=> {this.cease();}
+  }  
+}
+
+for(let i=0; i < notes.length; i++){
+  let sound = new Sound(notes[i].f, notes[i].d,i);
+  sounds.push(sound);
+}
+
+
+// EVENTS
+wishes.addEventListener("click",function(e){
+  if(e.target.id != "inputSpeed" && !flag){
+  sounds[0].play();
+  flag = true;}
+  },false);
+                        
+                        
+inputSpeed.addEventListener("input",function(e){
+  speed = this.value;
+  sounds.map((s) => {
+    s.speed = s.dur*speed
+  });
+},false);
+
+// CANVAS
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+let cw = canvas.width = window.innerWidth,
+  cx = cw / 2;
+let ch = canvas.height = window.innerHeight,
+  cy = ch / 2;
+
+let requestId = null;
+
+const colors = ["#93DFB8","#FFC8BA","#E3AAD6","#B5D8EB","#FFBDD8"];
+
+class Particle{
+  constructor(){
+    this.x = Math.random() * cw;
+    this.y = Math.random() * ch;
+    this.r = 15 + ~~(Math.random() * 20);//radius of the circumcircle
+    this.l = 3 + ~~(Math.random() * 2);//polygon sides
+    this.a = 2*Math.PI/this.l;// angle between polygon vertices
+    this.rot = Math.random()*Math.PI;// polygon rotation
+    this.speed = .05 + Math.random()/2;
+    this.rotSpeed = 0.005 + Math.random()*.005;
+    this.color = colors[~~(Math.random() * colors.length)];
+  }
+  update(){
+    if(this.y < -this.r){
+      this.y = ch + this.r;
+      this.x = Math.random() * cw;
+    }
+    this.y -= this.speed;
+  }
+  draw(){
+    ctx.save();
+    ctx.translate(this.x,this.y);
+    ctx.rotate(this.rot);
+    ctx.beginPath();
+    for( let i = 0; i < this.l; i++ ){
+		let x = this.r * Math.cos( this.a*i );
+		let y = this.r * Math.sin( this.a*i );
+		ctx.lineTo(x, y);
+    }
+    ctx.closePath();
+    ctx.lineWidth = 4;
+    ctx.strokeStyle = this.color;
+    ctx.stroke();
+    
+    ctx.restore();
+  }
+  
+}
+
+let particles = [];
+for(let i = 0; i < 20; i++){
+let p = new Particle();
+particles.push(p)
+}
+
+
+
+function Draw() {
+requestId = window.requestAnimationFrame(Draw);
+//ctx.globalAlpha=0.65;
+ctx.clearRect(0,0,cw,ch);
+particles.map((p) => {
+  p.rot += p.rotSpeed;
+  p.update();
+  p.draw();
+})
+
+}
+
+
+function Init() {
+	if (requestId) {
+		window.cancelAnimationFrame(requestId);
+		requestId = null;
+}
+
+
+cw = canvas.width = window.innerWidth,cx = cw / 2;
+ch = canvas.height = window.innerHeight,cy = ch / 2;
+
+//particles.map((p) => p.update());
+Draw();
+};
+
+setTimeout(function() {
+		Init();
+		window.addEventListener('resize', Init, false);
+}, 15);
+
+        </script>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage('resize', "*");
+            }
+        </script>
+    
+
+</body></html>
+<div style="display:none">
+	<script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6f798e51a1cd93937ee8293eece39b1a' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5718743'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D5718743%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
