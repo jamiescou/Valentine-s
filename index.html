@@ -11,13 +11,17 @@
             @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800);
 body {
   height: 100vh;
-  background-image: radial-gradient(#374566, #010203);
+  background: url(1.jpg)  50% 50% repeat !important;
+  background-size:100%;
+  /* background-image: radial-gradient(#374566, #010203); */
   color: #ccc;
   font-family: Raleway;
   letter-spacing: 0.15em;
   font-size: 20px;
 }
+
 canvas {
+  
   position: absolute;
   z-index: -1;
   top: 0;
@@ -540,45 +544,48 @@ input[type="range"]::-ms-fill-upper {
 	<meta content="clickberry-extension-here"></head>
     
     <body>
-           
-       
-        <div class="container">
-            <div class="balloon">
-               <div><span>亲</span>
+        <div id="body-div">
+            <div class="container">
+                <div class="balloon">
+                   <div><span>亲</span>
+                    </div>
+                    <div><span>爱</span>
+                    </div>
+                    <div><span>的</span>
+                    </div>
+                    <div><span>小</span>
+                    </div>
+                    <div><span>呆</span>
+                    </div>
+                    <div><span>呆</span>
+                    </div>
+                    <div><span>生</span>
+                    </div>
+                    <div><span>日</span>
+                    </div>
+                    <div><span>快</span>
+                    </div>
+                    <div><span>乐</span>
+                    </div>
+                    <div><span>!</span>
+                    </div>
                 </div>
-                <div><span>爱</span>
-                </div>
-                <div><span>的</span>
-                </div>
-				<div><span>小</span>
-                </div>
-                <div><span>呆</span>
-                </div>
-                <div><span>呆</span>
-                </div>
-                <div><span>生</span>
-                </div>
-                <div><span>日</span>
-                </div>
-                <div><span>快</span>
-                </div>
-                <div><span>乐</span>
-                </div>
-                <div><span>!</span>
-                </div>
+              
+    
             </div>
-          
+            <canvas id="canvas"></canvas>
+            <div id="pleaseClick">动动你的小手指<br><span>☟</span></div>
+            <div id="wishes">
+              <p id="p1"></p>
+              <p id="p2"></p>
+              <p id="p3"></p>
+              <p id="p4"></p>
+              <p class="control"><label for="inputSpeed"><!--Speed: --></label><br><input type="range" id="inputSpeed" min="0.1" max="2" step="0.1" value="0.5"></p>
+            </div>
 
         </div>
-        <canvas id="canvas"></canvas>
-        <div id="pleaseClick">动动你的小手指<br><span>☟</span></div>
-        <div id="wishes">
-          <p id="p1"></p>
-          <p id="p2"></p>
-          <p id="p3"></p>
-          <p id="p4"></p>
-          <p class="control"><label for="inputSpeed"><!--Speed: --></label><br><input type="range" id="inputSpeed" min="0.1" max="2" step="0.1" value="0.5"></p>
-        </div>
+       
+        
         
        
 		
